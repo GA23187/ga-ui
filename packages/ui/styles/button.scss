@@ -1,0 +1,18 @@
+.ga-button + .ga-button {
+    margin-left: 12px;
+  }
+  .ga-button {
+    border: 1px solid #c6e2ff;
+    border-radius: 8px;
+    padding: 8px 15px;
+    line-height: 14px;
+    &.ga-button--primary {
+      background-color: #409eff;
+    }
+    &.ga-button--success {
+      background-color: #67c23a;
+    }
+    &.ga-button--danger {
+      background-color: #f56c6c;
+    }
+  }

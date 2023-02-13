@@ -1,0 +1,28 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev . --port 8088",
+    "build": "vitepress build ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "ga-ui": "workspace:^1.0.0",
+    "vitepress-theme-demoblock": "^2.0.2"
+  }
+}

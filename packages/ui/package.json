@@ -1,0 +1,24 @@
+{
+  "name": "ga-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.es.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "@ga23187/components": "workspace:*",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.58.0",
+    "vite-plugin-dts": "^1.7.2",
+    "vue": "^3.2.47"
+  }
+}
